@@ -53,6 +53,7 @@ objects.
 %doc %{_texmfdistdir}/doc/generic/pst-3d/pst-3d-doc.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-3d/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ objects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
