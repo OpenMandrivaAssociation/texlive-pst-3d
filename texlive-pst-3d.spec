@@ -54,3 +54,21 @@ objects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Sun Feb 12 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.10-3
++ Revision: 773392
+- Rebuild
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.10-2
++ Revision: 755197
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.10-1
++ Revision: 719328
+- texlive-pst-3d
+- texlive-pst-3d
+- texlive-pst-3d
+- texlive-pst-3d
+
