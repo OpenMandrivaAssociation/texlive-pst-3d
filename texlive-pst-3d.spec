@@ -6,7 +6,7 @@
 # catalog-version 1.10
 Name:		texlive-pst-3d
 Version:	1.10
-Release:	4
+Release:	5
 Summary:	A PSTricks package for tilting and other pseudo-3D tricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-3d
