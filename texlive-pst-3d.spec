@@ -3,7 +3,7 @@ Version:	17257
 Release:	2
 Summary:	A PSTricks package for tilting and other pseudo-3D tricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-3d
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-3d
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-3d.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-3d.doc.r%{version}.tar.xz
